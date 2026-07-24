@@ -1,8 +1,27 @@
 aid: bricks
 name: BRICKS
-description: BRICKS is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BRICKS is a no-code Platform-as-a-Service from BRICKS DAG, Inc. (Taipei,
+  Taiwan) for building and managing interactive digital signage, kiosks, and
+  multi-display stitched screens. A WYSIWYG editor lets designers and businesses
+  create dynamic, data-driven displays — menu boards, wayfinding and crowd
+  control, meeting-room panels, sports scoreboards, promotional posters, and NFT
+  frames — deploy them to app-bound devices, control them remotely from mobile,
+  and connect live data sources and APIs, all without writing code. BRICKS is a
+  500 Global Accelerator Taiwan (TTA 2022) company.
 url: https://raw.githubusercontent.com/api-evangelist/bricks/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/62e3e833f2b15d5602843e88/t/6369f44aa58eaf32b0c6646a/1667888202732/%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F+2.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Digital Signage
+- Kiosk
+- No-Code
+- Interactive Displays
+- PaaS
+- Content Management
+- Screens
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bricks-domain-security.yml
 - type: Website
-  url: https://bricks.tools
+  url: https://www.bricks.tools
+- type: Support
+  url: https://intercom.help/bricks-dag-inc/en/
+- type: ChangeLog
+  url: https://bricks.sleekplan.app/changelog
+- type: Pricing
+  url: https://www.bricks.tools/price-1
+- type: SignUp
+  url: https://control.bricks.tools
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
